@@ -1,0 +1,106 @@
+@font-face {
+	font-family: 'Korinna-Bold';
+	src: url("korinn.tff");
+}
+@font-face {
+	font-family: 'gyparody';
+	src: url("gyparody.tff");
+}
+html, body {
+
+	font-family: "gyparody";
+	background-color: #060CE9;
+
+}
+h3 {
+	text-align: center;
+	text-shadow: 3px 3px black;
+	font-size: 100px;
+	color: white;
+	line-height: 50px;
+}
+span {
+
+	font-size: 50px;
+
+}
+p {
+	text-align: center;
+	font-family: "ITC Korinna Std", sans-serif;
+	color: white;
+	font-size: 30px;
+
+}
+.menu {
+	text-shadow: 3px 3px black;
+	position: relative;
+	text-align: center;
+	margin: 0 auto;
+	height: 50px;
+	width: 300px;
+	background-color: #115FF4;
+	border: 2px solid black;
+	border-radius: 10px;
+	transition: 250ms;
+}
+.menu p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: 0 auto;
+	transform: translate(-50%, -50%);
+}
+.menu:hover {
+
+	height: 60px;
+	width: 350px;
+
+}
+.back {
+	height: 50px;
+	width: 170px;
+	border: 2px solid black;
+	font-family: "gyparody";
+	font-size: 50px;
+	margin: 0 auto;
+	margin-top: 10px;
+	color: #eeb111;
+	text-align: center;
+	line-height: 50px;
+	vertical-align: middle;
+	background-color: #1a0dab;
+	transition: 500ms;
+}
+a {
+	text-decoration: none;
+}
+.back:hover {
+	background-color: #eeb111;
+	color: #1a0dab;
+}
+h2 {
+	font-family: "ITC Korinna Std", sans-serif;
+	color: white;
+	text-shadow: 3px 3px black;
+	top: 50%;
+}
+.qBox {
+	width: 500px;
+	height: 500px;
+	position: relative;
+	text-align: center;
+	margin: 0 auto;
+	bottom: -500px;
+	font-size: 20px;
+	font-family: "Swiss911W01-ExtraCompressed";
+	color: #D7AD6F;
+}
+#value {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	font-size: 30px;
+	font-family: "Swiss911W01-ExtraCompressed";
+	color: #D7AD6F;
+}

@@ -1,0 +1,31 @@
+.sourcebox {
+	width: 1000px;
+	height: 500px;
+	background-color: #115FF4;
+	text-shadow: 3px 3px black;
+	border: 2px solid black;
+	border-radius: 10px;
+	margin: 0 auto;
+}
+p {
+	font-size: 19px;
+	text-align: left;
+}
+#list {
+	font-size: 30px;
+}
+li {
+	font-size: 30px;
+	text-align: left;
+	color: white;
+	font-family: "ITC Korinna Std", sans-serif;
+}
+.instruct {
+	width: 1000px;
+	height: 700px;
+	background-color: #115FF4;
+	text-shadow: 3px 3px black;
+	border: 2px solid black;
+	border-radius: 10px;
+	margin: 0 auto;
+}

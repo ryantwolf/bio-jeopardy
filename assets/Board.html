@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--Hello Mrs. Boehm!-->
+	<title>Biology Jeopardy</title>
+	<link href="https://db.onlinewebfonts.com/c/168cb827a28ad8dceaeadb1f36af0693?family=Swiss911W01-ExtraCompressed" rel="stylesheet">
+	<link href="https://db.onlinewebfonts.com/c/e4c95d9cb49a7ab38e94eab90ed2963a?family=ITC+Korinna+Std" rel="stylesheet">
+	<script type="text/javascript" src="project.js"></script>
+	<script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="Board.css">
+	<link rel="stylesheet" type="text/css" href="Project.css">
+</head>
+<body>
+	<!--Theme song obtained from https://soundcloud.com/theme_song_fanatic/jeopardy-theme-song -->
+	<!-- <audio src="Theme.mp3" loop="loop" autoplay>
+	</audio> -->
+	<h3>JEOPARDY!<br><span>Biology Review Edition!</span></h3>
+	<br>
+	<h2 id="sSlot">Score: </h2>
+	<table>
+		<tr>
+			<td>Chapter 3/4</td>
+			<td>Chapter 6</td>
+			<td>Chapter 7</td>
+			<td>Chapter 8</td>
+			<td>Chapter 9</td>
+			<td>Chapter 11</td>
+		</tr>
+		<tr>
+			<td id="21"><p onclick="load(t21)">200</p></td>
+			<td id="22"><p onclick="load(t22)">200</p></td>
+			<td id="23"><p onclick="load(t23)">200</p></td>
+			<td id="24"><p onclick="load(t24)">200</p></td>
+			<td id="25"><p onclick="load(t25)">200</p></td>
+			<td id="26"><p onclick="load(t26)">200</p></td>
+		</tr>
+		<tr>
+			<td id="41"><p onclick="load(t41)">400</p></td>
+			<td id="42"><p onclick="load(t42)">400</p></td>
+			<td id="43"><p onclick="load(t43)">400</p></td>
+			<td id="44"><p onclick="load(t44)">400</p></td>
+			<td id="45"><p onclick="load(t45)">400</p></td>
+			<td id="46"><p onclick="load(t46)">400</p></td>
+		</tr>
+		<tr>
+			<td id="61"><p onclick="load(t61)">600</p></td>
+			<td id="62"><p onclick="load(t62)">600</p></td>
+			<td id="63"><p onclick="load(t63)">600</p></td>
+			<td id="64"><p onclick="load(t64)">600</p></td>
+			<td id="65"><p onclick="load(t65)">600</p></td>
+			<td id="66"><p onclick="load(t66)">600</p></td>
+		</tr>
+		<tr>
+			<td id="81"><p onclick="load(t81)">800</p></td>
+			<td id="82"><p onclick="load(t82)">800</p></td>
+			<td id="83"><p onclick="load(t83)">800</p></td>
+			<td id="84"><p onclick="load(t84)">800</p></td>
+			<td id="85"><p onclick="load(t85)">800</p></td>
+			<td id="86"><p onclick="load(t86)">800</p></td>
+		</tr>
+		<tr>
+			<td id="101"><p onclick="load(t101)">1000</p></td>
+			<td id="102"><p onclick="load(t102)">1000</p></td>
+			<td id="103"><p onclick="load(t103)">1000</p></td>
+			<td id="104"><p onclick="load(t104)">1000</p></td>
+			<td id="105"><p onclick="load(t105)">1000</p></td>
+			<td id="106"><p onclick="load(t106)">1000</p></td>
+		</tr>
+	</table>
+	<div class='qBox'>
+		<h2 id='qSlot'>How many licks does it take?</h2>
+		<form id="form" onsubmit="return false;">
+			<input type="text" name="answer" id="answer">
+			<input type="button" name="submit" id="submit" value="Submit" onclick="checkAnswer()">
+		</form>
+		<p id="out"></p>
+		<p id='value'>Idk</p>
+	</div>
+</body>
+</html>
